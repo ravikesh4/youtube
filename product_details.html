@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jwellers- Shop</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="font/Lora-Regular.ttf">
+        <link rel="stylesheet" href="font/PlayfairDisplay-Regular.ttf">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+
+    </head>
+    <body>
+        <!-- navbar  -->
+        <header>
+            <div uk-sticky>
+            <nav class="uk-navbar-container uk-box-shadow-small" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-hidden@m"><a href="#mobile-nav"  uk-icon="icon: menu" uk-toggle></a></li>
+                        <li class="uk-active"><a href="index.html">LOGO</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-visible@m">
+                    <form class="uk-search uk-search-default  uk-visible@m">
+                        <a href="" class="uk-search-icon-flip" uk-search-icon></a>
+                        <input class="uk-search-input" type="search" placeholder="Search...">
+                    </form>
+                    <div>
+                            <a class="uk-navbar-toggle uk-hidden@m" href="#" uk-search-icon></a>
+                            <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+                
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <form class="uk-search uk-search-navbar uk-width-1-1">
+                                            <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                                        </form>
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+                                    </div>
+                                </div>
+                
+                            </div>
+                        </div>
+                </div>
+
+                <!-- offcanvas section  -->
+                <div id="mobile-nav" uk-offcanvas>
+                    <div class="uk-offcanvas-bar">
+                        <ul class="uk-nav uk-nav-parent-icon uk-list" data-uk-nav>
+                        <li class="uk-active"><a href="index.html">Home</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <!-- end of off-canvas section  -->
+                
+                <div class="uk-navbar-right">
+                    
+                    <ul class="uk-navbar-nav">
+                        
+                        <li>
+                            <a href="channels.html"  uk-icon="icon: user"></a>
+                            
+                        </li>
+                        <!-- <li><a href="#">Item</a></li> -->
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </header>
+        <!-- end of navbar  -->
+        <!-- <section>
+            <div class="shop-header uk-text-center">
+                <h2 class="uk-text-bolder">Shop</h2>
+                <ul class="uk-breadcrumb uk-flex-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="uk-disabled"><a>Shop</a></li>
+                </ul>
+            </div>
+        </section> -->
+        <section class="uk-margin-large-top">
+            <div uk-grid>
+                <div class="uk-width-2-3@s uk-margin-large-left">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 400">
+
+                        <img src="images/first.jpg" alt="" width="100%">
+                    </div>
+                    <div class="uk-margin-top">
+                        <h3>New Course: Data Structures & Algorithms [Part 2]</h3>
+                        <p class="uk-text-meta">19999 views, Sep 8, 2019</p>
+                        <hr>
+                        <p class="uk-text-meta"> Programming with Mosh</p>
+                        <p class="uk-text-meta">   706K subscribers</p>
+                        <hr>
+                        <div>
+                            <h3>Add Your Comments</h3>
+                            <form>
+                                
+                                    <textarea class="uk-textarea" rows="5" placeholder="Textarea">Add Your Comments</textarea>
+                                    <button class="uk-button uk-button-primary uk-margin-top">Submit</button>
+                            </form>
+                            <hr>
+                            <h1>Comments</h1>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+                            <hr>
+                            <h3 class="uk-margin-top">Alejandro Carvajal Sarria
+                                    <span class="uk-text-meta"> 1 day ago</span></h3>
+                            <p>Aye, Mosh can you please make a course on JS Dependency Injection? I need a good explanation like yours man.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-auto@s " uk-sticky="offset: 80" class="left-scroll">
+                    <div  data-sc-scrollbar="visible-y">
+                        
+                    <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a> <hr>
+                        
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="uk-container">
+                    <div class="uk-margin-top" uk-grid>
+                        <div class="uk-width-2-3@m">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h4><b>About this Product</b></h4>
+                                <p class="uk-text-muted text-small">Traditional temple necklace set made from brass. Yellow gold plated. Pair with a silk saree. This piece of jewelry comes with the Voylla assurance of quality and durability. Caring for your fashion jewelry: We, at Voylla, take care of every piece of jewelry so that you don't spend hours caring for them. But do remember, fashion jewelry lasts longer when kept dry and free of chemicals. Follow this simple rule: Your jewelry should be the last thing you put on and the first thing you take off.</p>
+                                <div class="uk-child-width-1-2@m list-text" uk-grid>
+                                    <div>
+                                        <div class="uk-card uk-card-body">
+                                            <ul>
+                                                <li><b> Sales Package:</b> 1 Necklace; 2 Earrings</li>
+                                                <li><b> Surface Finish:</b> Textured</li>
+                                                <li><b> Design:</b> Geometric</li>
+                                                <li><b> Design Width:</b> 5.33 cm (2.1 inches)</li>
+                                                <li><b> Earring Width:</b> 9.4 mm (0.37 inches)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-card uk-card-body">
+                                            <ul>
+                                                <li><b> Colour:</b> Green, Gold, Red</li>
+                                                <li><b> Theme:</b> Classic</li>
+                                                <li><b> Material:</b> Brass</li>
+                                                <li><b> Design Length:</b> 6.35 cm (2.5 inches)</li>
+                                                <li><b> Earring Length:</b> 2.16 cm (0.85 inches)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div>
+                            <div class="uk-width-auto@m" uk-grid>
+                                <div>
+                                    <div class="uk-card uk-card-default uk-card-body">
+                                        <h6><b>Recommends</b></h6>
+                                        <img src="images/product/product1.jpg" alt="" width="150px" >
+                                            <p>Crown Summit Backpack</p>
+                                            <p>₹52.00</p>
+                                            <button class="uk-button-danger uk-button round-btn">Buy</button>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   -->
+        </section>
+
+
+    </body>
+</html>
+
+

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jwellers- Shop</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="font/Lora-Regular.ttf">
+        <link rel="stylesheet" href="font/PlayfairDisplay-Regular.ttf">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+
+    </head>
+    <body>
+        <!-- navbar  -->
+        <header>
+            <div uk-sticky>
+            <nav class="uk-navbar-container uk-box-shadow-small" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-hidden@m"><a href="#mobile-nav"  uk-icon="icon: menu" uk-toggle></a></li>
+                        <li class="uk-active"><a href="index.html">LOGO</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-visible@m">
+                    <form class="uk-search uk-search-default  uk-visible@m">
+                        <a href="" class="uk-search-icon-flip" uk-search-icon></a>
+                        <input class="uk-search-input" type="search" placeholder="Search...">
+                    </form>
+                    <div>
+                            <a class="uk-navbar-toggle uk-hidden@m" href="#" uk-search-icon></a>
+                            <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+                
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <form class="uk-search uk-search-navbar uk-width-1-1">
+                                            <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                                        </form>
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <a class="uk-navbar-dropdown-close" href="#" uk-close></a>
+                                    </div>
+                                </div>
+                
+                            </div>
+                        </div>
+                </div>
+
+                <!-- offcanvas section  -->
+                <div id="mobile-nav" uk-offcanvas>
+                    <div class="uk-offcanvas-bar">
+                        <ul class="uk-nav uk-nav-parent-icon uk-list" data-uk-nav>
+                        <li class="uk-active"><a href="index.html">Home</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <!-- end of off-canvas section  -->
+                
+                <div class="uk-navbar-right">
+                    
+                    <ul class="uk-navbar-nav">
+                        
+                        <li>
+                            <a href="channels.html"  uk-icon="icon: user"></a>
+                            
+                        </li>
+                        <!-- <li><a href="#">Item</a></li> -->
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </header>
+        <!-- end of navbar  -->
+        <div class="product-heading uk-text-center uk-margin-medium">
+            </div>
+        <div  uk-grid>
+            <div class="uk-width-1-5@m uk-margin-large-left">
+                <div class="filter">
+                    <h4 class="uk-text-secondary"><b>Filters</b></h4>
+                    <hr>
+                    <div>
+                        <h5 class="uk-text-muted"><b>Price</b></h5>
+                        <div>
+                            <a href="#" class="uk-text-secondary">₹0.00 - ₹1000 (30)</a><br>
+                            <a href="#" class="uk-text-secondary">₹1000 - ₹5000 (20)</a><br>
+                            <a href="#" class="uk-text-secondary">₹5000 - ₹10000 (30)</a><br>
+                            <a href="#" class="uk-text-secondary">₹10000 - ₹50000 (10)</a><br>
+                            <a href="#" class="uk-text-secondary">₹50000 - ₹100000 (51)</a><br>
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h5 class="uk-text-muted"><b>Product</b></h5>
+                        <div>
+                            <a href="#" class="uk-text-secondary">Ring (30)</a><br>
+                            <a href="#" class="uk-text-secondary">Earrings (20)</a><br>
+                            <a href="#" class="uk-text-secondary">Necklace (30)</a><br>
+                            <a href="#" class="uk-text-secondary">Bracelet (10)</a><br>
+                            <a href="#" class="uk-text-secondary">Chain (12)</a><br>
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h5 class="uk-text-muted"><b>Colour</b></h5>
+                        <div>
+                            <a href="#" class="uk-text-secondary">Gold (754)</a><br>
+                            <a href="#" class="uk-text-secondary">Silver (674)</a><br>
+                            <a href="#" class="uk-text-secondary">White (745)</a><br>
+                            <a href="#" class="uk-text-secondary">Pink (75)</a><br>
+                            <a href="#" class="uk-text-secondary">Maroon (23)</a><br>
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h5 class="uk-text-muted"><b>Collection</b></h5>
+                        <div>
+                            <a href="#" class="uk-text-secondary">Classic (1030)</a><br>
+                            <a href="#" class="uk-text-secondary">Fashion (66)</a><br>
+                            <a href="#" class="uk-text-secondary">Long (56)</a><br>
+                            <a href="#" class="uk-text-secondary">Modern (45)</a><br>
+                            <a href="#" class="uk-text-secondary">Monsoon (408)</a><br>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-expand@m">
+                        <!-- product section  -->
+                <section class="uk-margin-medium">
+                <div class="product uk-container">
+                    <div class="uk-grid-small uk-child-width-1-4@s " uk-grid>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                        <a href="product_details.html"><div class="">
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                        <a href="product_details.html"><div class="">
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="uk-grid-small uk-child-width-1-4@s " uk-grid>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                        <a href="product_details.html"><div class="uk-flex">
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                        <a href="product_details.html"><div>
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div>
+                        <a href="product_details.html"><div class="uk-flex">
+                            <div class="uk-card ">
+                                <img src="images/first.jpg" alt="">
+                                <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                                <p class="uk-text-meta">T-Series</p>   
+                                <p class="uk-text-meta">  33M views4 days ago</p>
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="uk-margin-medium">
+                        <div class="uk-card ">
+                            <img src="images/first.jpg" alt="">
+                            <p>Marjaavaan: Ek Toh Kum Zindagani Video</p>
+                            <p class="uk-text-meta">T-Series</p>   
+                            <p class="uk-text-meta">  33M views4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of product section  -->
+            </div>
+        </div>
+
+    </body>
+</html>
+
